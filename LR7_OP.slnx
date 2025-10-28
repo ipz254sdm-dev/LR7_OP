@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LR7_OP/LR7_OP.vcxproj" Id="2535b60e-cfc3-4a6d-afae-a003ae4c796d" />
+  <Project Path="LR7_OP_Task_2/LR7_OP_Task_2.vcxproj" Id="a577861e-ce87-4ee2-9e31-f1bdf3fe9eca" />
+  <Project Path="LR7_OP_Task_3/LR7_OP_Task_3.vcxproj" Id="c779c1a5-fb36-492f-9896-774f759b8dcc" />
+</Solution>
