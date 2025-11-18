@@ -4,6 +4,7 @@
 int main()
 
 {
+
 	int x, result;
 	printf("Enter x = ");
 	scanf_s("%d", &x);

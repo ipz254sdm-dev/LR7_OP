@@ -3,19 +3,14 @@
 int main() 
 {
 	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
-    int x, y, z, max;
-    printf("Введіть три додатні числа, кратні 3: ");
-    scanf_s("%d %d %d", &x, &y, &z);
-
-    if (x <= 0 || y <= 0 || z <= 0 || x % 3 != 0 || y % 3 != 0 || z % 3 != 0) {
-        printf("Помилка: усі числа повинні бути додатніми і кратними 3.\n");
-        return 1;
-    }
-
-    max = (x > y) ? ((x > z) ? x : z) : ((y > z) ? y : z);
-
-    printf("Найбільше число: %d\n", max);
-
+	SetConsoleOutputCP(1251);  
+	int X, Y,Z;
+	printf("Введіть Х = ");
+	scanf_s("%d", &X);
+	printf("Введіть Y = ");
+	scanf_s("%d", &Y);
+	printf("Введіть Z = ");
+	scanf_s("%d", &Z);
+	((X > 100) || (Y > 100) || (Z > 100)) ? printf("true\n") : printf("false\n");
     return 0;
 }
